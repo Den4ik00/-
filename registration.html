@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Реєстрація</h1>
+    </header>
+    <section id="register" class="section">
+        <div class="container">
+            <form id="registration-form">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+
+                <label for="event">Подія:</label>
+                <select id="event" name="event" required>
+                    <option value="">Оберіть подію</option>
+                    <option value="1">Туристичний похід у Карпати</option>
+                    <option value="2">Змагання на байдарках</option>
+                    <option value="3">Гірський марафон</option>
+                </select>
+
+                <button type="submit">Зареєструватися</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
